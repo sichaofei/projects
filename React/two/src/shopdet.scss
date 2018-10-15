@@ -1,0 +1,31 @@
+.Det{
+    width:100%;
+    .head{
+        width:100%;
+        display: flex;
+        color:white;
+        font-size:1rem;
+        .left{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a{
+                font-size:1rem;
+                color:white;
+            }
+            width:15%;
+        }
+        .right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:85%;
+        }
+        .Det .con{
+            width:100%;
+            img{
+                width:100%;
+            }
+        }
+    }
+}

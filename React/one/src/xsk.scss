@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+.boc{
+    width:800px;
+    margin:100px auto;
+}
+.header{
+    width:100%;
+    display: flex;
+    li{
+        width:25%;
+        height:50px;
+        line-height:50px;
+        text-align:center;
+        list-style: none;
+    }
+    .actives{
+        background: blue;
+    }
+}
+.box{
+    width:100%;
+    height:500px;
+    position: relative;
+    div{
+        width:100%;
+        position: absolute;
+        top:0;
+        left:0;
+        height:100%;
+        background:red;
+        display: none;
+    }
+    div:nth-child(2){
+        background:blue;
+    }
+    div:nth-child(3){
+        background:yellow;
+    }
+    div:nth-child(4){
+        background:black;
+    }
+
+    .active{
+        display: block;
+    }
+}

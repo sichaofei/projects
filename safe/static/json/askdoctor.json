@@ -1,0 +1,98 @@
+{
+    "ChooseDepartment": [
+        {
+            "id": 0,
+            "img": "./static/img/askdoctor/4.png",
+            "title": "儿科",
+            "content": "儿童发育疾病"
+        },
+        {
+            "id": 1,
+            "img": "./static/img/askdoctor/5.png",
+            "title": "妇产科",
+            "content": "妇科生育"
+        },
+        {
+            "id": 2,
+            "img": "./static/img/askdoctor/6.png",
+            "title": "皮肤科",
+            "content": "皮肤性病美容"
+        },
+        {
+            "id": 3,
+            "img": "./static/img/askdoctor/7.png",
+            "title": "普内科",
+            "content": "高血压糖尿病"
+        },
+        {
+            "id": 4,
+            "img": "./static/img/askdoctor/8.png",
+            "title": "心理科",
+            "content": "焦虑失眠"
+        },
+        {
+            "id": 5,
+            "img": "./static/img/askdoctor/9.png",
+            "title": "泌尿科",
+            "content": "泌尿肛肠"
+        },
+        {
+            "id": 6,
+            "img": "./static/img/askdoctor/10.png",
+            "title": "骨科",
+            "content": "粉碎骨折"
+        },
+        {
+            "id": 7,
+            "img": "./static/img/askdoctor/11.png",
+            "title": "更多",
+            "content": "全部科室"
+        }
+    ],
+    "ChineseMedicine": [
+        {
+            "img": "./static/img/askdoctor/12.png"
+        }
+    ],
+    "characteristicService": [
+        {
+            "id": 0,
+            "img": "./static/img/askdoctor/13.png"
+        },
+        {
+            "id": 1,
+            "img": "./static/img/askdoctor/14.png"
+        },
+        {
+            "id": 2,
+            "img": "./static/img/askdoctor/15.png"
+        },
+        {
+            "id": 3,
+            "img": "./static/img/askdoctor/16.png"
+        }
+    ],
+    "register": [
+        {
+            "id": 0,
+            "img": "./static/img/askdoctor/17.png",
+            "name": "北京大学国际医院",
+            "site": "中关村生命科学园生命园路1号"
+        },
+        {
+            "id": 1,
+            "img": "./static/img/askdoctor/18.png",
+            "name": "首都医科大学三博脑科医院",
+            "site": "北京市海淀区香山一棵松50号"
+        },
+        {
+            "id": 2,
+            "img": "./static/img/askdoctor/19.png",
+            "name": "北京京城皮肤病医院",
+            "site": "北沙滩桥北双泉堡甲4号"
+        }
+    ],
+    "footer": {
+        "img": "./static/img/askdoctor/20.png"
+    }
+}

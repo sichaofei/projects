@@ -1,0 +1,64 @@
+.ding{
+    .head{
+        height:2rem;
+        position:fixed;
+        top:0;
+        color:white;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .left{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:15%;
+        }
+        .right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:85%
+        }
+    }
+    width:100%;
+    .shop{
+        .remove{
+            padding:0.5rem 0rem;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+        margin-top:2rem;
+        width:100%;
+        li{
+           
+            padding:0.7rem 0rem;
+            border-bottom:1px solid #ccc;
+            display: flex;
+            .left{
+                padding-left:1rem;
+                width:20%;
+                img{
+                    width:50%;
+                }
+            }
+            .right{
+                position: relative;
+                button{
+                    position: absolute;
+                    right:1rem;
+                    top:1rem;
+                    background: white;
+                    border:0;
+                }
+                span{
+                    margin-left:2rem;
+                    color:red;
+                }
+                font-size:0.7rem;
+                width:80%;
+            }
+            list-style: none;
+        }
+    }
+}

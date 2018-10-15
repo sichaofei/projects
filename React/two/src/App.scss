@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    font-size:20px;
+}
+.box{
+   width:100%;
+}
+.navs{
+  
+    width:100%;
+    >.header{
+        position: fixed;
+        top:0;
+        z-index: 5;
+        height:2rem;
+        background: #3190E8;
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+        .left,.right{
+            a{
+                color:white;
+            }
+            color:white;
+            font-size:0.8rem;
+            width:25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+.city{
+    
+    >div{
+       border-bottom:0.6rem #e1e1e1 solid;
+    }
+    width:100%;
+    margin-top:2rem;
+    .header{
+        p{
+            a{
+                color:#3190E8;
+               
+            }
+            padding-left:2%;
+            height:2rem;
+            line-height: 2rem;
+            border-bottom:1px solid #ccc;
+        }
+        font-size:0.7rem;
+        width:100%;
+        span{
+            margin-left:10%;
+            color:#9F9F9F;
+            font-weight:700;
+        }
+    }
+}
+.hotcity{
+   
+    p{
+        font-size:0.7rem;
+        width:100%;
+        padding-left:2%;
+    }
+    font-size:0.8rem;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    div{
+
+        a{
+            color:#3190E8;
+            font-size:0.7rem;
+        }
+        border:1px solid #ccc;
+        width:25%;
+        display: flex;
+        justify-content: center;
+        height:2rem;
+        align-items: center;
+        box-sizing: border-box;
+    }
+}
+.group{
+    width:100%;
+}
+.groups{
+    border-bottom:0.6rem #e1e1e1 solid;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    p{
+        width:100%;
+    }
+        div{
+            a{
+                color:black;
+            }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           width:25%;
+           font-size: 0.6rem;
+           border:1px solid #e1e1e1;
+           box-sizing: border-box;
+           height:2rem;
+        }
+ 
+}

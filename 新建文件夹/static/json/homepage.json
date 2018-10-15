@@ -1,0 +1,816 @@
+{
+    "nav": [
+        {
+            "id": 1,
+            "img": "./static/img/homepage/home_29.gif",
+            "text": "活动",
+            "type": "active",
+            "con": [
+                {
+                    "logo": [
+                        {
+                            "id": 0,
+                            "img": "./static/img/active/logo.png"
+                        }
+                    ],
+                    "banner": [
+                        {
+                            "id": 0,
+                            "img": "./static/img/active/banner.png"
+                        },
+                        {
+                            "id": 1,
+                            "img": "./static/img/active/banner.png"
+                        },
+                        {
+                            "id": 2,
+                            "img": "./static/img/active/banner.png"
+                        }
+                    ],
+                    "nav": [
+                        {
+                            "id": 0,
+                            "img": "./static/img/active/nav1.jpg"
+                        },
+                        {
+                            "id": 1,
+                            "img": "./static/img/active/nav2.jpg"
+                        },
+                        {
+                            "id": 2,
+                            "img": "./static/img/active/nav3.jpg"
+                        },
+                        {
+                            "id": 3,
+                            "img": "./static/img/active/nav4.jpg"
+                        }
+                    ],
+                    "content": [
+                        {
+                            "id": 0,
+                            "img": "./static/img/active/img1.jpg",
+                            "name": "1分购7天腾讯VIP视频卡",
+                            "title": "只需一分钱，生活更精彩！暑期霸屏",
+                            "affiliation": [
+                                {
+                                    "name": "抽奖"
+                                },
+                                {
+                                    "name": "暑期好福利"
+                                }
+                            ],
+                            "person": 45,
+                            "time": 15,
+                            "type": ""
+                        },
+                        {
+                            "id": 1,
+                            "img": "./static/img/active/img2.jpg",
+                            "name": "我们都是健康模范生",
+                            "title": "平安好医生为您树立健康模范！",
+                            "affiliation": [
+                                {
+                                    "name": "抽奖"
+                                },
+                                {
+                                    "name": "健康"
+                                }
+                            ],
+                            "person": 21,
+                            "time": 15,
+                            "type": "健康"
+                        },
+                        {
+                            "id": 2,
+                            "img": "./static/img/active/img3.jpg",
+                            "name": "在线申请新一货 货来健康新生活",
+                            "title": "申请并放款成功，送专属洁牙只能套餐",
+                            "affiliation": [
+                                {
+                                    "name": "贷款"
+                                }
+                            ],
+                            "person": 13,
+                            "time": 15,
+                            "type": "财富"
+                        },
+                        {
+                            "id": 3,
+                            "img": "./static/img/active/img4.jpg",
+                            "name": "VIP积分兑换专属通道",
+                            "title": "健康财富，尊崇礼遇一好礼享不停",
+                            "affiliation": [
+                                {
+                                    "name": "生活"
+                                }
+                            ],
+                            "person": 5,
+                            "time": 168,
+                            "type": "本地"
+                        },
+                        {
+                            "id": 4,
+                            "img": "./static/img/active/img5.jpg",
+                            "name": "寻找追逐梦想的你",
+                            "title": "平安筑梦 体验保险大咖蜕变之旅",
+                            "affiliation": [
+                                {
+                                    "name": "招募"
+                                }
+                            ],
+                            "person": 12,
+                            "time": 76,
+                            "type": "本地"
+                        },
+                        {
+                            "id": 5,
+                            "img": "./static/img/active/img6.jpg",
+                            "name": "多彩夏令营 High翻迪士尼",
+                            "title": "迪士尼门票天天抽，更多壕礼100%中奖",
+                            "affiliation": [
+                                {
+                                    "name": "赢取壕礼"
+                                }
+                            ],
+                            "person": 2,
+                            "time": 35,
+                            "type": "本地"
+                        },
+                        {
+                            "id": 6,
+                            "img": "./static/img/active/img7.jpg",
+                            "name": "地图打卡 168元红包天天抽",
+                            "title": "你去过哪些地方？快来打卡你的出行地图吧！",
+                            "affiliation": [
+                                {
+                                    "name": "抽奖"
+                                },
+                                {
+                                    "name": "天天抽红包"
+                                },
+                                {
+                                    "name": "产品"
+                                }
+                            ],
+                            "person": 50,
+                            "time": 46,
+                            "type": "财富"
+                        },
+                        {
+                            "id": 7,
+                            "img": "./static/img/active/img8.jpg",
+                            "name": "乐享健康节 免费抽大奖",
+                            "title": "抽奖赢空调扇、平板电脑智能电饭煲等大奖",
+                            "affiliation": [
+                                {
+                                    "name": "抽奖"
+                                },
+                                {
+                                    "name": "健康"
+                                }
+                            ],
+                            "person": 75,
+                            "time": 8,
+                            "type": "健康"
+                        },
+                        {
+                            "id": 8,
+                            "img": "./static/img/active/img9.jpg",
+                            "name": "健康保卫战",
+                            "title": "200元抽卡领回家",
+                            "affiliation": [
+                                {
+                                    "name": "抽奖"
+                                },
+                                {
+                                    "name": "健康"
+                                }
+                            ],
+                            "person": 65,
+                            "time": 19,
+                            "type": "健康"
+                        },
+                        {
+                            "id": 9,
+                            "img": "./static/img/active/img10.jpg",
+                            "name": "社保+功能上线 免费好礼送不停",
+                            "title": "免费体验社保服务，最高抽取66元红包！",
+                            "affiliation": [
+                                {
+                                    "name": "抽奖"
+                                },
+                                {
+                                    "name": "社保+"
+                                },
+                                {
+                                    "name": "旺财"
+                                }
+                            ],
+                            "person": 112,
+                            "time": 17,
+                            "type": "财富"
+                        },
+                        {
+                            "id": 10,
+                            "img": "./static/img/active/img11.jpg",
+                            "name": "优惠多 健康节",
+                            "title": "品牌手机/空调免费抽！",
+                            "affiliation": [
+                                {
+                                    "name": "生活"
+                                },
+                                {
+                                    "name": "抽奖"
+                                }
+                            ],
+                            "person": 105,
+                            "time": 5,
+                            "type": "生活"
+                        },
+                        {
+                            "id": 11,
+                            "img": "./static/img/active/img12.jpg",
+                            "name": "拼手速 赢大奖",
+                            "title": "玩游戏 赢小米手机",
+                            "affiliation": [
+                                {
+                                    "name": "生活"
+                                }
+                            ],
+                            "person": 70,
+                            "time": 13,
+                            "type": "生活"
+                        },
+                        {
+                            "id": 12,
+                            "img": "./static/img/active/img13.jpg",
+                            "name": "享换车豪礼 赢666红包",
+                            "title": "666红包等你来拿！",
+                            "affiliation": [
+                                {
+                                    "name": "生活"
+                                },
+                                {
+                                    "name": "666红包"
+                                }
+                            ],
+                            "person": 51,
+                            "time": 46,
+                            "type": "生活"
+                        },
+                        {
+                            "id": 13,
+                            "img": "./static/img/active/img14.jpg",
+                            "name": "学平盛宴-火热进行季",
+                            "title": "参与暑期安全答题赢取丰富大奖",
+                            "affiliation": [
+                                {
+                                    "name": "抽奖"
+                                },
+                                {
+                                    "name": "学平险"
+                                }
+                            ],
+                            "person": 69,
+                            "time": 15,
+                            "type": ""
+                        },
+                        {
+                            "id": 14,
+                            "img": "./static/img/active/img15.jpg",
+                            "name": "消暑大作战 全民大冒险",
+                            "title": "好房大富翁，壕放红包，清凉一夏",
+                            "affiliation": [
+                                {
+                                    "name": "抽奖"
+                                },
+                                {
+                                    "name": "好房"
+                                }
+                            ],
+                            "person": 70,
+                            "time": 46,
+                            "type": ""
+                        },
+                        {
+                            "id": 15,
+                            "img": "./static/img/active/img16.jpg",
+                            "name": "中国平安球童成长计划",
+                            "title": "逐梦世界足球，送少年走进英超冠军球队！",
+                            "affiliation": [
+                                {
+                                    "name": "客服节"
+                                },
+                                {
+                                    "name": "健康"
+                                }
+                            ],
+                            "person": 25,
+                            "time": 14,
+                            "type": "健康"
+                        },
+                        {
+                            "id": 16,
+                            "img": "./static/img/active/img17.jpg",
+                            "name": "开车能赚钱 天天抽大奖",
+                            "title": "大牌手机、海量红包等你来领",
+                            "affiliation": [
+                                {
+                                    "name": "理财"
+                                }
+                            ],
+                            "person": 99,
+                            "time": 5,
+                            "type": "财富"
+                        },
+                        {
+                            "id": 17,
+                            "img": "./static/img/active/img18.jpg",
+                            "name": "技高一筹主仔全场",
+                            "title": "猜球赢大奖！",
+                            "affiliation": [
+                                {
+                                    "name": "生活"
+                                }
+                            ],
+                            "person": 28,
+                            "time": 14,
+                            "type": "生活"
+                        },
+                        {
+                            "id": 18,
+                            "img": "./static/img/active/img19.jpg",
+                            "name": "VIP积分限时体验",
+                            "title": "专属积分权益体验 惊喜好礼等你拿",
+                            "affiliation": [
+                                {
+                                    "name": "客户关爱"
+                                }
+                            ],
+                            "person": 395,
+                            "time": 15,
+                            "type": ""
+                        },
+                        {
+                            "id": 19,
+                            "img": "./static/img/active/img20.jpg",
+                            "name": "中国平安三村工程公益跑",
+                            "title": "为山区儿童捐出他们人生首次体验",
+                            "affiliation": [
+                                {
+                                    "name": "健康"
+                                }
+                            ],
+                            "person": 69,
+                            "time": 153,
+                            "type": "健康"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "img": "./static/img/homepage/home_31.gif",
+            "text": "保单服务",
+            "type": "bd",
+            "con": [
+                {
+                    "chang": [
+                        {
+                            "title": "投连万能价格",
+                            "img": "./static/img/db/polic_13.png"
+                        },
+                        {
+                            "title": "投连万能收益",
+                            "img": "./static/img/db/polic_15.png"
+                        },
+                        {
+                            "title": "红利查询",
+                            "img": "./static/img/db/polic_17.png"
+                        },
+                        {
+                            "title": "生存金查询",
+                            "img": "./static/img/db/polic_20.png"
+                        },
+                        {
+                            "title": "保单贷款",
+                            "img": "./static/img/db/polic_26.png"
+                        },
+                        {
+                            "title": "保单还款",
+                            "img": "./static/img/db/polic_27.png"
+                        },
+                        {
+                            "title": "地址电话变更",
+                            "img": "./static/img/db/polic_28.png"
+                        },
+                        {
+                            "title": "证件信息变更",
+                            "img": "./static/img/db/polic_29.png"
+                        },
+                        {
+                            "title": "缴费账号变更",
+                            "img": "./static/img/db/polic_34.png"
+                        },
+                        {
+                            "title": "新增附加险",
+                            "img": "./static/img/db/polic_35.png"
+                        },
+                        {
+                            "title": "红利收取",
+                            "img": "./static/img/db/polic_59.png"
+                        },
+                        {
+                            "title": "地址电话变更",
+                            "img": "./static/img/db/polic_36.png"
+                        }
+                    ],
+                    "lipei": [
+                        {
+                            "title": "理赔报案",
+                            "img": "./static/img/db/polic_56.png"
+                        },
+                        {
+                            "title": "理赔申请",
+                            "img": "./static/img/db/polic_59.png"
+                        },
+                        {
+                            "title": "理赔进度",
+                            "img": "./static/img/db/polic_61.png"
+                        },
+                        {
+                            "title": "定点医院",
+                            "img": "./static/img/db/polic_63.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "img": "./static/img/homepage/home_34.gif",
+            "text": "问医生",
+            "type": "ask",
+            "con": [
+                {
+                    "ChooseDepartment": [
+                        {
+                            "id": 0,
+                            "img": "./static/img/askdoctor/4.png",
+                            "title": "儿科",
+                            "content": "儿童发育疾病"
+                        },
+                        {
+                            "id": 1,
+                            "img": "./static/img/askdoctor/5.png",
+                            "title": "妇产科",
+                            "content": "妇科生育"
+                        },
+                        {
+                            "id": 2,
+                            "img": "./static/img/askdoctor/6.png",
+                            "title": "皮肤科",
+                            "content": "皮肤性病美容"
+                        },
+                        {
+                            "id": 3,
+                            "img": "./static/img/askdoctor/7.png",
+                            "title": "普内科",
+                            "content": "高血压糖尿病"
+                        },
+                        {
+                            "id": 4,
+                            "img": "./static/img/askdoctor/8.png",
+                            "title": "心理科",
+                            "content": "焦虑失眠"
+                        },
+                        {
+                            "id": 5,
+                            "img": "./static/img/askdoctor/9.png",
+                            "title": "泌尿科",
+                            "content": "泌尿肛肠"
+                        },
+                        {
+                            "id": 6,
+                            "img": "./static/img/askdoctor/10.png",
+                            "title": "骨科",
+                            "content": "粉碎骨折"
+                        },
+                        {
+                            "id": 7,
+                            "img": "./static/img/askdoctor/11.png",
+                            "title": "更多",
+                            "content": "全部科室"
+                        }
+                    ],
+                    "ChineseMedicine": [
+                        {
+                            "img": "./static/img/askdoctor/12.png"
+                        }
+                    ],
+                    "characteristicService": [
+                        {
+                            "id": 0,
+                            "img": "./static/img/askdoctor/13.png"
+                        },
+                        {
+                            "id": 1,
+                            "img": "./static/img/askdoctor/14.png"
+                        },
+                        {
+                            "id": 2,
+                            "img": "./static/img/askdoctor/15.png"
+                        },
+                        {
+                            "id": 3,
+                            "img": "./static/img/askdoctor/16.png"
+                        }
+                    ],
+                    "register": [
+                        {
+                            "id": 0,
+                            "img": "./static/img/askdoctor/17.png",
+                            "name": "北京大学国际医院",
+                            "site": "中关村生命科学园生命园路1号"
+                        },
+                        {
+                            "id": 1,
+                            "img": "./static/img/askdoctor/18.png",
+                            "name": "首都医科大学三博脑科医院",
+                            "site": "北京市海淀区香山一棵松50号"
+                        },
+                        {
+                            "id": 2,
+                            "img": "./static/img/askdoctor/19.png",
+                            "name": "北京京城皮肤病医院",
+                            "site": "北沙滩桥北双泉堡甲4号"
+                        }
+                    ],
+                    "footer": {
+                        "img": "./static/img/askdoctor/20.png"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "img": "./static/img/homepage/home_36.gif",
+            "text": "旺财",
+            "type": "all",
+            "con": [
+                {
+                    "name": "旺财"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "img": "./static/img/homepage/home_46.gif",
+            "text": "进圈子",
+            "type": "all",
+            "con": [
+                {
+                    "name": "进圈子"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "img": "./static/img/homepage/home_48.gif",
+            "text": "优惠多",
+            "type": "all",
+            "con": [
+                {
+                    "name": "优惠多"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "img": "./static/img/homepage/home_42.gif",
+            "text": "平安RUN",
+            "type": "all",
+            "con": [
+                {
+                    "name": "平安Run"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "img": "./static/img/homepage/home_43.gif",
+            "text": "领卷中心",
+            "type": "all",
+            "con": [
+                {
+                    "name": "领卷中心"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "img": "./static/img/homepage/home_44.gif",
+            "text": "社保+",
+            "type": "all",
+            "con": [
+                {
+                    "name": "社保+"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "img": "./static/img/homepage/home_46.gif",
+            "text": "更多",
+            "type": "all",
+            "con": [
+                {
+                    "name": "更多"
+                }
+            ]
+        }
+    ],
+    "singles": [
+        {
+            "id": 1,
+            "title": "鑫样17",
+            "text": "健康养老一单解决",
+            "img": "./static/img/homepage/home_more_01.png",
+            "explain": "新产品"
+        },
+        {
+            "id": 2,
+            "title": "健乐保",
+            "text": "保健身意外及三者",
+            "img": "./static/img/homepage/home_more_02.png",
+            "explain": 20
+        },
+        {
+            "id": 3,
+            "title": "百万任我行18",
+            "text": "5个100万，还有高返还",
+            "img": "./static/img/homepage/home_more_03.png",
+            "explain": 1699
+        },
+        {
+            "id": 4,
+            "title": "旺财银行卡刷盗卫士",
+            "text": "旺财专属盗刷卫士高性价比",
+            "img": "./static/img/homepage/home_more_04.png",
+            "explain": 1
+        },
+        {
+            "id": 5,
+            "title": "安康医疗",
+            "text": "涵盖社保内外用药",
+            "img": "./static/img/homepage/home_more_05.png",
+            "explain": 186480
+        },
+        {
+            "id": 6,
+            "title": "7天综合交通意外险",
+            "text": "短期出行7天2元",
+            "img": "./static/img/homepage/home_more_06.png",
+            "explain": 2
+        },
+        {
+            "id": 7,
+            "title": "境外旅游保险",
+            "text": "出国旅游签证必备",
+            "img": "./static/img/homepage/home_more_07.png",
+            "explain": 46
+        },
+        {
+            "id": 8,
+            "title": "少儿平安福2018",
+            "text": "多次赔付保障全，父母陪护有补偿",
+            "img": "./static/img/homepage/home_more_08.png",
+            "explain": "新产品"
+        }
+    ],
+    "merchandise": [
+        {
+            "id": 1,
+            "img": "./static/img/homepage/home_75.gif",
+            "text": "安岳柠檬1斤 装",
+            "price": "￥19.9"
+        },
+        {
+            "id": 2,
+            "img": "./static/img/homepage/home_77.gif",
+            "text": "德运高钙全脂牛奶粉",
+            "price": "￥199"
+        },
+        {
+            "id": 3,
+            "img": "./static/img/homepage/home_75.gif",
+            "text": "安岳柠檬1斤 装",
+            "price": "￥19.9"
+        },
+        {
+            "id": 4,
+            "img": "./static/img/homepage/home2_03.png",
+            "text": "德运高钙全脂牛奶粉",
+            "price": "￥109"
+        }
+    ],
+    "excitingevents": [
+        {
+            "id": 1,
+            "img": "./static/img/homepage/home_81.gif",
+            "title": "寻找追逐梦想的你",
+            "text": "平安筑梦 体验保险大咖悦爱之旅"
+        },
+        {
+            "id": 2,
+            "img": "./static/img/homepage/home2_10.png",
+            "title": "平安福十大黄金演绎作品",
+            "text": "平安福十大黄金演绎作品编排"
+        }
+    ],
+    "circle": [
+        {
+            "id": 1,
+            "title": "#大咖在线答疑车主必须知道的汽车事故应对攻略!",
+            "tou": "./static/img/homepage/home_87.gif",
+            "img": [
+                {
+                    "img": "./static/img/homepage/home_84.gif"
+                }
+            ],
+            "span": "车主圈活动助手",
+            "type": "话题",
+            "num": "72观点"
+        },
+        {
+            "id": 2,
+            "title": "教你如何绑定车牌及上传里程",
+            "tou": "./static/img/homepage/home_87.gif",
+            "span": "车主圈小秘书",
+            "type": "问答",
+            "num": "497问答",
+            "img": [
+                {
+                    "img": "./static/img/homepage/home_90.gif"
+                },
+                {
+                    "img": "./static/img/homepage/home_92.gif"
+                },
+                {
+                    "img": "./static/img/homepage/home_94.gif"
+                }
+            ]
+        }
+    ],
+    "headlines": [
+        {
+            "id": 2,
+            "text": "友仔友女们，睡前这样趴 15分钟，肚子平了",
+            "number": "-3107871人",
+            "img": "./static/img/homepage/home_105.gif"
+        },
+        {
+            "id": 3,
+            "text": "大婶怒变18小姑娘，原是睡前涂脸，斑点皱纹一扫光",
+            "number": "-3066662人",
+            "img": "./static/img/homepage/home_103.gif"
+        },
+        {
+            "id": 4,
+            "text": "早上起床的3个表现说明你正在发胖，看看自己还有没有",
+            "number": "3310人",
+            "img": "./static/img/homepage/home_105.gif"
+        },
+        {
+            "id": 5,
+            "text": "女认来大姨妈，千万不能吃这些食物，很伤子宫",
+            "number": "3153人",
+            "img": "./static/img/homepage/home_105.gif"
+        },
+        {
+            "id": 6,
+            "text": "押题手册",
+            "number": " 平安证券 491326人",
+            "img": "./static/img/homepage/home_105.gif"
+        }
+    ],
+    "imgages": [
+        {
+            "id": 1,
+            "img": "./static/img/homepage/home_109.gif"
+        },
+        {
+            "id": 2,
+            "img": "./static/img/homepage/home_111.gif"
+        },
+        {
+            "id": 3,
+            "img": "./static/img/homepage/home_113.gif"
+        },
+        {
+            "id": 4,
+            "img": "./static/img/homepage/home_115.gif"
+        }
+    ]
+}

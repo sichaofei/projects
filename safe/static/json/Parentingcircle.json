@@ -1,0 +1,67 @@
+{
+  "Popularconsultation": [
+    {
+      "id": 1,
+      "img": "./static/img/Parentingcircle/yeq_17.png",
+      "text": "夏天来了，教孩子这样吃冰淇淋最健康",
+      "number": 7028
+    },
+    {
+      "id": 2,
+      "img": "./static/img/Parentingcircle/yeq_20.png",
+      "text": "为什么不要随便在网上晒孩子的照片?",
+      "number": 5093
+    },
+    {
+      "id": 3,
+      "img": "./static/img/Parentingcircle/yeq_22.png",
+      "text": "用这样的方式，怀孕16天就可以知道胎儿的性别",
+      "number": 15924
+    },
+    {
+      "id": 4,
+      "img": "./static/img/Parentingcircle/yeq_24.png",
+      "text": "吃对了就能长高，这么简单的方法你试不试",
+      "number": 21761
+    },
+    {
+      "id": 5,
+      "img": "./static/img/Parentingcircle/yeq_26.png",
+      "text": "这是宝宝最健康的餐具，90%的妈妈都忽略了！",
+      "number": 973
+    }
+  ],
+  "Insurance sales": [
+    {
+      "id": 0,
+      "img": "",
+      "tiele": "智能星",
+      "text": "上月关注度",
+      "number": 733108
+    },
+    {
+      "id": 1,
+      "img": "",
+      "tiele": "少儿重大疾病保险",
+      "number": 110
+    }
+  ],
+  "nav": [
+    {
+      "img": "./static/img/Parentingcircle/yeq_04.png",
+      "title": "平安宝贝森林"
+    },
+    {
+      "img": "./static/img/Parentingcircle/yeq_06.png",
+      "title": "揪出熊孩子"
+    },
+    {
+      "img": "./static/img/Parentingcircle/yeq_08.png",
+      "title": "GO!运动吧"
+    },
+    {
+      "img": "./static/img/Parentingcircle/yeq_10.png",
+      "title": "家庭医生"
+    }
+  ]
+}

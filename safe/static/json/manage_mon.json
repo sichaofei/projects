@@ -1,0 +1,83 @@
+{
+  "image": "./static//img/lc/lcq_02.png",
+  "list": [{
+      "image": "./static/img/lc/lcq_05.png",
+      "title": "客服中心"
+    },
+    {
+      "image": "./static/img/lc/lcq_07.png",
+      "title": "我要赚钱"
+    },
+    {
+      "image": "./static/img/lc/lcq_09.png",
+      "title": "我要借钱"
+    },
+    {
+      "image": "./static/img/lc/lcq_11.png",
+      "title": "敬请期待"
+    }
+  ],
+  "advise_hot": [{
+      "image": "./static/img/lc/lcq_18.png",
+      "title": "押题手册！一图读懂中报行情",
+      "hot_people": "./static//img/lc/lcq_23.png",
+      "hot_num": 493895
+    },
+    {
+      "image": "./static/img/lc/lcq_21.png",
+      "title": "旺财今日小贴士",
+      "hot_people": "./static//img/lc/lcq_23.png",
+      "hot_num": 525098
+    },
+    {
+      "image": "./static/img/lc/lcq_27.png",
+      "title": "毕业季，跟“月光”说再见，向“吃土”说拜拜",
+      "hot_people": "./static//img/lc/lcq_23.png",
+      "hot_num": 500854
+    },
+    {
+      "image": "./static/img/lc/lcq_29.png",
+      "title": "站在2700点，股民如何自救？",
+      "hot_people": "./static//img/lc/lcq_23.png",
+      "hot_num": 492443
+    },
+    {
+      "image": "./static/img/lc/lcq_31.png",
+      "title": "境外盗刷太猖狂，安全用卡三步轻松防",
+      "hot_people": "./static//img/lc/lcq_23.png",
+      "hot_num": 486162
+    }
+  ],
+  "hot_list_sell": [{
+      "image": "./static/img/lc/lcq_37.png",
+      "title": "旺财",
+      "describe": "能赚钱能买单电子钱包"
+    },
+    {
+      "image": "./static/img/lc/lcq_39.png",
+      "title": "车主卡",
+      "describe": "保障全优惠多"
+    },
+    {
+      "image": "./static/img/lc/lcq_43.png",
+      "title": "稳盈",
+      "describe": "“短、稳、快、活”的理财工具"
+    }
+  ],
+  "new_list_product": [{
+      "image": "./static/img/lc/lcq_43.png",
+      "title": "大额存单",
+      "describe": "保本保息，支付按月付款"
+    },
+    {
+      "image": "./static/img/lc/lcq_44.png",
+      "title": "现金宝",
+      "describe": "快速赎回，T+0到账"
+    },
+    {
+      "image": "./static/img/lc/lcq_44.png",
+      "title": "日添利",
+      "describe": "随取随存，当日起息"
+    }
+  ]
+}

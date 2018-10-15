@@ -1,0 +1,544 @@
+{
+    "liveOne": [
+        {
+            "img": "./static/img/live/3.png",
+            "title": "多利农庄压榨葵花油",
+            "newPrice": 37.8,
+            "oldPrice": 39.8,
+            "id": 0
+        },
+        {
+            "img": "./static/img/live/5.png",
+            "title": "多利农庄小食组合",
+            "newPrice": 27.8,
+            "oldPrice": 29.9,
+            "id": 1
+        },
+        {
+            "img": "./static/img/live/4.png",
+            "title": "六鳌地瓜小蜜署5斤",
+            "newPrice": 28.9,
+            "oldPrice": 29.9,
+            "id": 2
+        },
+        {
+            "img": "./static/img/live/6.png",
+            "title": "天润佳丽小白奶",
+            "newPrice": 38.0,
+            "oldPrice": 44.0,
+            "id": 3
+        },
+        {
+            "img": "./static/img/live/1.png",
+            "title": "智利猕猴桃16个",
+            "newPrice": 38.0,
+            "oldPrice": 39.9,
+            "id": 4
+        },
+        {
+            "img": "./static/img/live/2.png",
+            "title": "六神清新滋润沐浴露",
+            "newPrice": 69.0,
+            "oldPrice": 99.0,
+            "id": 5
+        }
+    ],
+    "liveTwo": [
+        {
+            "img": "./static/img/live/9.png",
+            "title": "百草集新七白4件套",
+            "newPrice": 339.00,
+            "oldPrice": 358.00,
+            "id": 0
+        },
+        {
+            "img": "./static/img/live/11.png",
+            "title": "陕西黑布林2斤",
+            "newPrice": 19.90,
+            "oldPrice": 29.00,
+            "id": 1
+        },
+        {
+            "img": "./static/img/live/7.png",
+            "title": "育婴童餐巾纸",
+            "newPrice": 29.90,
+            "oldPrice": 69.80,
+            "id": 2
+        },
+        {
+            "img": "./static/img/live/8.png",
+            "title": "汉南青柠檬1斤装",
+            "newPrice": 15.80,
+            "oldPrice": 21.80,
+            "id": 3
+        },
+        {
+            "img": "./static/img/live/10.png",
+            "title": "携行者男女速干服",
+            "newPrice": 59.90,
+            "oldPrice": 99.00,
+            "id": 4
+        },
+        {
+            "img": "./static/img/live/12.png",
+            "title": "德运高钙成人奶粉",
+            "newPrice": 119.00,
+            "oldPrice": 190.00,
+            "id": 5
+        }
+    ],
+    "liveThree": [
+        {
+            "img": "./static/img/live/13.png",
+            "title": "家安米精华餐具净",
+            "newPrice": 18.8,
+            "id": 0,
+            "type": "全部"
+        },
+        {
+            "img": "./static/img/live/14.png",
+            "title": "秘鲁黑玛咖精片",
+            "newPrice": 59.9,
+            "id": 1,
+            "type": "全部"
+        },
+        {
+            "img": "./static/img/live/15.png",
+            "title": "浪莎女士三角裤",
+            "newPrice": 37.9,
+            "id": 2,
+            "type": "全部"
+        },
+        {
+            "img": "./static/img/live/16.png",
+            "title": "钙铁锌咀嚼片",
+            "newPrice": 72.0,
+            "id": 3,
+            "type": "全部"
+        },
+        {
+            "img": "./static/img/live/17.png",
+            "title": "美素佳儿幼儿奶粉",
+            "newPrice": 203.0,
+            "id": 4,
+            "type": "生活达人"
+        },
+        {
+            "img": "./static/img/live/18.png",
+            "title": "氨糖软骨素钙片",
+            "newPrice": 89.0,
+            "id": 5,
+            "type": "生活达人"
+        },
+        {
+            "img": "./static/img/live/19.png",
+            "title": "骆驼 电风扇落地扇",
+            "newPrice": 88.0,
+            "id": 6,
+            "type": "生活达人"
+        },
+        {
+            "img": "./static/img/live/20.png",
+            "title": "金正超薄擦地机器人",
+            "newPrice": 198.0,
+            "id": 7,
+            "type": "生活达人"
+        },
+        {
+            "img": "./static/img/live/21.png",
+            "title": "智能通话手表",
+            "newPrice": 99.0,
+            "id": 8,
+            "type": "神秘党"
+        },
+        {
+            "img": "./static/img/live/22.png",
+            "title": "启初婴儿清爽湿巾",
+            "newPrice": 15.00,
+            "id": 9,
+            "type": "神秘党"
+        },
+        {
+            "img": "./static/img/live/23.png",
+            "title": "瑞鸿便携迷你挂烫机",
+            "newPrice": 99.0,
+            "id": 10,
+            "type": "神秘党"
+        },
+        {
+            "img": "./static/img/live/24.png",
+            "title": "片仔癀牙膏套装",
+            "newPrice": 96.0,
+            "id": 11,
+            "type": "神秘党"
+        }
+    ],
+    "banner": [
+        {
+            "id": 0,
+            "img": "./static/img/live/banner1.png"
+        },
+        {
+            "id": 1,
+            "img": "./static/img/live/banner2.png"
+        }
+    ],
+    "nav": [
+        {
+            "id": 0,
+            "img": "./static/img/live/nav1.png",
+            "title": "问律师"
+        },
+        {
+            "id": 1,
+            "img": "./static/img/live/nav2.png",
+            "title": "旅游出行"
+        },
+        {
+            "id": 2,
+            "img": "./static/img/live/nav3.png",
+            "title": "车生活"
+        },
+        {
+            "id": 3,
+            "img": "./static/img/live/nav4.png",
+            "title": "好留学"
+        },
+        {
+            "id": 4,
+            "img": "./static/img/live/nav5.png",
+            "title": "家政服务"
+        },
+        {
+            "id": 5,
+            "img": "./static/img/live/nav6.png",
+            "title": "美醇佳酿"
+        },
+        {
+            "id": 6,
+            "img": "./static/img/live/nav7.png",
+            "title": "教育咨询"
+        },
+        {
+            "id": 7,
+            "img": "./static/img/live/nav8.png",
+            "title": "积分商城"
+        },
+        {
+            "id": 8,
+            "img": "./static/img/live/nav9.png",
+            "title": "玩游戏"
+        },
+        {
+            "id": 9,
+            "img": "./static/img/live/nav10.png",
+            "title": "更多"
+        }
+    ],
+    "fljx": [
+        [
+            {
+                "id": 0,
+                "img": "./static/img/live/jx1.png",
+                "name": "美妆个护",
+                "title": "美丽购"
+            }
+        ],
+        [
+            {
+                "id": 0,
+                "img": "./static/img/live/jx2.png",
+                "name": "食品生鲜",
+                "title": "美味购"
+            }
+        ],
+        [
+            {
+                "id": 0,
+                "img": "./static/img/live/jx3.png",
+                "name": "母婴育儿",
+                "title": "奶粉尿裤直降"
+            },
+            {
+                "id": 1,
+                "img": "./static/img/live/jx4.png",
+                "name": "家庭日用",
+                "title": "安家购"
+            },
+            {
+                "id": 2,
+                "img": "./static/img/live/jx5.png",
+                "name": "数码家电",
+                "title": "低价购"
+            },
+            {
+                "id": 3,
+                "img": "./static/img/live/jx6.png",
+                "name": "营养滋补",
+                "title": "健康购"
+            },
+            {
+                "id": 4,
+                "img": "./static/img/live/jx7.png",
+                "name": "运动户外",
+                "title": "品质购"
+            },
+            {
+                "id": 5,
+                "img": "./static/img/live/jx8.png",
+                "name": "地方特产",
+                "title": "产地直采"
+            }
+        ]
+    ],
+    "fxhw": [
+        {
+            "id": 0,
+            "img": "./static/img/live/fxhw.png",
+            "name": "出游季！",
+            "title": "与伙伴一起踏上旅行"
+        }
+    ],
+    "pp": [
+        {
+            "id": 0,
+            "img": "./static/img/live/pp1.png",
+            "name": "品牌钜惠",
+            "title": "第二件半价"
+        },
+        {
+            "id": 1,
+            "img": "./static/img/live/pp2.png",
+            "name": "佰草集",
+            "title": "护肤优选"
+        },
+        {
+            "id": 2,
+            "img": "./static/img/live/pp3.png",
+            "name": "片仔癀",
+            "title": "护理优选"
+        },
+        {
+            "id": 3,
+            "img": "./static/img/live/pp4.png",
+            "name": "启初",
+            "title": "宝宝优选"
+        },
+        {
+            "id": 4,
+            "img": "./static/img/live/pp5.png",
+            "name": "多利优选",
+            "title": "有机生活"
+        },
+        {
+            "id": 5,
+            "img": "./static/img/live/pp6.png",
+            "name": "海外大牌",
+            "title": "满99减15元"
+        },
+        {
+            "id": 6,
+            "img": "./static/img/live/pp7.png",
+            "name": "五粮液",
+            "title": "领劵减30"
+        },
+        {
+            "id": 7,
+            "img": "./static/img/live/pp8.png",
+            "name": "美醇佳酿",
+            "title": "品质佳酿"
+        },
+        {
+            "id": 8,
+            "img": "./static/img/live/pp9.png",
+            "name": "中粮品质",
+            "title": "爆款6.5元起"
+        },
+        {
+            "id": 9,
+            "img": "./static/img/live/pp10.png",
+            "name": "助农扶贫",
+            "title": "第二站广西"
+        }
+    ],
+    "hz": [
+        {
+            "id": 0,
+            "img": "./static/img/live/hz1.png"
+        },
+        {
+            "id": 1,
+            "img": "./static/img/live/hz2.png"
+        },
+        {
+            "id": 2,
+            "img": "./static/img/live/hz3.png"
+        },
+        {
+            "id": 3,
+            "img": "./static/img/live/hz4.png"
+        }
+    ],
+    "tj": [
+        {
+            "id": 0,
+            "img": "./static/img/live/tj1.png",
+            "name": "养生堂维生素E200粒",
+            "newPrice": 88.00,
+            "oldPrice": 198.00,
+            "count": 0
+        },
+        {
+            "id": 1,
+            "img": "./static/img/live/tj2.png",
+            "name": "热敷瘦瘦包塑身外敷",
+            "newPrice": 99.00,
+            "oldPrice": 199.00,
+            "count": 0
+        },
+        {
+            "id": 2,
+            "img": "./static/img/live/tj3.png",
+            "name": "【2瓶装】家安空调除菌清洁剂",
+            "newPrice": 40.00,
+            "oldPrice": 78.00,
+            "count": 0
+        },
+        {
+            "id": 3,
+            "img": "./static/img/live/tj4.png",
+            "name": "【第二件减10】三维仿生诱捕技术LED灭蚊灯",
+            "newPrice": 29.90,
+            "oldPrice": 99.00,
+            "count": 0
+        },
+        {
+            "id": 4,
+            "img": "./static/img/live/tj5.png",
+            "name": "免手洗自动旋转拖把 干湿两用",
+            "newPrice": 49.00,
+            "oldPrice": 88.00,
+            "count": 0
+        },
+        {
+            "id": 5,
+            "img": "./static/img/live/tj6.png",
+            "name": "美加净牡丹石榴精选装",
+            "newPrice": 109.00,
+            "oldPrice": 226.00,
+            "count": 0
+        },
+        {
+            "id": 6,
+            "img": "./static/img/live/tj7.png",
+            "name": "【选烤鸭酱】北京烤鸭1000g",
+            "newPrice": 69.90,
+            "oldPrice": 179.90,
+            "count": 0
+        },
+        {
+            "id": 7,
+            "img": "./static/img/live/tj8.png",
+            "name": "汤臣倍健 胶原蛋白粉",
+            "newPrice": 128.00,
+            "oldPrice": 268.00,
+            "count": 0
+        },
+        {
+            "id": 8,
+            "img": "./static/img/live/tj9.png",
+            "name": "【亏本限量抢2000台】智能五叶落地扇",
+            "newPrice": 88.00,
+            "oldPrice": 198.00,
+            "count": 0
+        },
+        {
+            "id": 9,
+            "img": "./static/img/live/tj10.png",
+            "name": "多利农庄每日坚果750g/盒",
+            "newPrice": 138.00,
+            "oldPrice": 168.00,
+            "count": 0
+        },
+        {
+            "id": 10,
+            "img": "./static/img/live/tj11.png",
+            "name": "六神冰凉超爽沐浴露+驱蚊花露水",
+            "newPrice": 40.50,
+            "oldPrice": 78.00,
+            "count": 0
+        },
+        {
+            "id": 11,
+            "img": "./static/img/live/tj12.png",
+            "name": "芦荟胶",
+            "newPrice": 19.90,
+            "oldPrice": 99.00,
+            "count": 0
+        },
+        {
+            "id": 12,
+            "img": "./static/img/live/tj13.png",
+            "name": "恋邑 埃及长绒棉面巾",
+            "newPrice": 27.00,
+            "oldPrice": 79.00,
+            "count": 0
+        },
+        {
+            "id": 13,
+            "img": "./static/img/live/tj14.png",
+            "name": "片仔癀牙火清炫白促销中",
+            "newPrice": 59.00,
+            "oldPrice": 88.00,
+            "count": 0
+        },
+        {
+            "id": 14,
+            "img": "./static/img/live/tj15.png",
+            "name": "多利农庄素食燕麦片400g/袋",
+            "newPrice": 15.80,
+            "oldPrice": 38.00,
+            "count": 0
+        },
+        {
+            "id": 15,
+            "img": "./static/img/live/tj16.png",
+            "name": "【品质好货 亏本抢量】原生竹浆本色抽纸",
+            "newPrice": 18.80,
+            "oldPrice": 32.00,
+            "count": 0
+        },
+        {
+            "id": 16,
+            "img": "./static/img/live/tj17.png",
+            "name": "【买二得五】佰草集平衡保湿云锦礼盒",
+            "newPrice": 199.00,
+            "oldPrice": 437.00,
+            "count": 0
+        },
+        {
+            "id": 17,
+            "img": "./static/img/live/tj18.png",
+            "name": "【买2送1】日本马油脚气膏",
+            "newPrice": 19.90,
+            "oldPrice": 99.00,
+            "count": 0
+        },
+        {
+            "id": 18,
+            "img": "./static/img/live/tj19.png",
+            "name": "按摩保健鹅卵石木底拖鞋",
+            "newPrice": 39.00,
+            "oldPrice": 228.00,
+            "count": 0
+        },
+        {
+            "id": 19,
+            "img": "./static/img/live/tj20.png",
+            "name": "砀山黄桃5斤",
+            "newPrice": 25.80,
+            "oldPrice": 48.00,
+            "count": 0
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+  "adv": [{
+    "id": 1,
+    "img": "./static/img/adv/adv_07.png",
+    "name": "活动消息",
+    "time": "07月16日",
+    "title": "玩转社保+！红包天天领"
+  }, {
+    "id": 2,
+    "img": "./static/img/adv/adv_10.png",
+    "name": "保险消息",
+    "time": "07月10日",
+    "title": "7月不减肥,8月图悲伤;特惠推荐"
+  }, {
+    "id": 3,
+    "img": "./static/img/adv/adv_12.png",
+    "name": "财富消息",
+    "time": "06月22日",
+    "title": "若有大额资金使用需求,您可提前一个"
+  }, {
+    "id": 4,
+    "img": "./static/img/adv/adv_14.png",
+    "name": "生活助手",
+    "time": "07月14日",
+    "title": "欢乐星期六开抢!全场9.9元起！"
+  }, {
+    "id": 5,
+    "img": "./static/img/adv/adv_16.png",
+    "name": "健康消息",
+    "time": "07月05日",
+    "title": "带你玩转健康节"
+  }]
+}

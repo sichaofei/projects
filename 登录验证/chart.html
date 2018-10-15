@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/js/jquery-3.2.1.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            overflow: hidden;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        @keyframes myfirst {
+            from {
+                left: 100vw;
+                font-size: 40px;
+                color: blue;
+            }
+            to {
+                left: -400px;
+                font-size: 30px;
+                color: red;
+            }
+        }
+
+        .all {
+            position: absolute;
+            width: 100%;
+            top: 50px;
+            animation: myfirst 10s forwards;
+            -webkit-animation: myfirst 10s forwards;
+            /* Safari 与 Chrome */
+            /* Safari 与 Chrome */
+        }
+
+        .position {
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .position .center {
+            border-radius: 20px;
+            background: white;
+            width: 500px;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .foot {
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            bottom: 50px;
+            float: left;
+            display: flex;
+            border-top: 1px solid #ccc;
+        }
+
+        .foot input {
+            width: 80%;
+            height: 50px;
+        }
+
+        .foot button {
+            width: 20%;
+            height: 50px;
+        }
+
+        .box {
+            box-sizing: border-box;
+            width: 80%;
+            height: 90vh;
+            overflow: hidden;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+
+        }
+
+        .header {
+            width: 100%;
+            height: 50px;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .con {
+            width: 100%;
+            display: flex;
+            height: 100%;
+        }
+
+        .nav {
+            height: 89%;
+        }
+
+        .nav ul {
+            overflow: scroll;
+        }
+
+        .nav li {
+
+            list-style: none;
+            padding-left: 10px;
+            height: 50px;
+            line-height: 50px;
+        }
+
+        li .msg {
+            padding: 10px 20px;
+            border-radius: 20px;
+            background: greenyellow;
+        }
+
+        li .msgname {
+            background: aqua;
+            height: 20px;
+            border-radius: 10px;
+            padding: 10px 20px;
+            margin: 0 20px;
+        }
+
+        .floatRight {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .con>.left {
+            width: 20%;
+            height: 100%;
+            border-right: 1px solid #ccc;
+        }
+
+        .con .right {
+            position: relative;
+            width: 80%;
+        }
+
+        #person li {
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+            height: 40px;
+            line-height: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="position">
+        <div class="center">
+            <input type="text" id="user" class="form-control">
+            <button class="btn btn-primary" id="login">登录</button>
+        </div>
+    </div>
+    <div class="box">
+        <div class="header">
+            <h1>聊天室</h1>
+        </div>
+        <div class="con">
+            <div class="left">
+                在线成员
+                <b id="num"></b>
+                <ul id="person">
+
+                </ul>
+            </div>
+            <div class="right">
+                <div class="nav">
+                    <ul id="ul" class="table table-condensed">
+
+                    </ul>
+                </div>
+                <div class="foot">
+                    <input type="text" id="val" class="form-control">
+                    <button class="btn btn-primary" id="btn">发表</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var socket = io();
+    // if (window.localStorage.getItem("user")) {
+    //     socket.emit("person", window.localStorage.getItem("user"))
+    //     $(".position").css("display", "none")
+    // }
+    // 接受用户数量
+    socket.on("num", function (data) {
+        console.log(data)
+        num.innerHTML = data.length
+        person.innerHTML = ""
+        for (var a = 0; a < data.length; a++) {
+            var li = document.createElement("li")
+            li.innerHTML = data[a]
+            person.append(li)
+        }
+    })
+    socket.on("all", function (data) {
+        var div = document.createElement("div")
+        div.className = "all"
+        div.innerHTML = "欢迎" + data + "进入本房间"
+        $("body").append(div)
+    })
+
+    var btn1 = document.querySelector("#btn")
+    // 页面关闭
+    // 登录
+
+    login.onclick = function () {
+        $.ajax({
+            url: "/login",
+            data: {
+                name: user.value
+            },
+            success: function (res) {
+                if (res != 0) {
+                    // window.localStorage.setItem("user", res)
+                    socket.emit("person", res)
+                    $(".position").css("display", "none")
+                    btn1.onclick = function () {
+                        var msg = { name: res, mas: val.value }
+                        socket.emit("sendMsg", msg)
+                    }
+                    socket.on("newMsg", function (data) {
+                        console.log(data)
+                        var li = document.createElement("li")
+                        if (data.name == res) {
+                            li.className = "floatRight"
+                            li.innerHTML = `<p><span class="msg">${data.mas}</span>:<span>${data.name}</span></p> `
+                        } else {
+                            li.innerHTML = `<p class="left"><span>${data.name}</span>:<span class="msg">${data.mas}</span></p> `
+                        }
+                        ul.appendChild(li)
+                    })
+
+                } else {
+                    alert("用户名已经存在")
+                }
+            }
+        })
+    }
+</script>
+
+</html>

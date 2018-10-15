@@ -1,0 +1,90 @@
+{
+    "liveOne": [
+        {
+            "img": "./static/img/live/3.png",
+            "title": "多利农庄压榨葵花油",
+            "newPrice": 37.8,
+            "oldPrice": 39.8,
+            "id": 0
+        },
+        {
+            "img": "./static/img/live/5.png",
+            "title": "多利农庄小食组合",
+            "newPrice": 27.8,
+            "oldPrice": 29.9,
+            "id": 1
+        },
+        {
+            "img": "./static/img/live/4.png",
+            "title": "六鳌地瓜小蜜署5斤",
+            "newPrice": 28.9,
+            "oldPrice": 29.9,
+            "id": 2
+        },
+        {
+            "img": "./static/img/live/6.png",
+            "title": "天润佳丽小白奶",
+            "newPrice": 38.0,
+            "oldPrice": 44.0,
+            "id": 3
+        },
+        {
+            "img": "./static/img/live/1.png",
+            "title": "智利猕猴桃16个",
+            "newPrice": 38.0,
+            "oldPrice": 39.9,
+            "id": 4
+        },
+        {
+            "img": "./static/img/live/2.png",
+            "title": "六神清新滋润沐浴露",
+            "newPrice": 69.0,
+            "oldPrice": 99.0,
+            "id": 5
+        }
+    ],
+    "liveTwo": [
+        {
+            "img": "./static/img/live/9.png",
+            "title": "百草集新七白4件套",
+            "newPrice": 339.00,
+            "oldPrice": 358.00,
+            "id": 0
+        },
+        {
+            "img": "./static/img/live/11.png",
+            "title": "陕西黑布林2斤",
+            "newPrice": 19.90,
+            "oldPrice": 29.00,
+            "id": 1
+        },
+        {
+            "img": "./static/img/live/7.png",
+            "title": "育婴童餐巾纸",
+            "newPrice": 29.90,
+            "oldPrice": 69.80,
+            "id": 2
+        },
+        {
+            "img": "./static/img/live/8.png",
+            "title": "汉南青柠檬1斤装",
+            "newPrice": 15.80,
+            "oldPrice": 21.80,
+            "id": 3
+        },
+        {
+            "img": "./static/img/live/10.png",
+            "title": "携行者男女速干服",
+            "newPrice": 59.90,
+            "oldPrice": 99.00,
+            "id": 4
+        },
+        {
+            "img": "./static/img/live/12.png",
+            "title": "德运高钙成人奶粉",
+            "newPrice": 119.00,
+            "oldPrice": 190.00,
+            "id": 5
+        }
+    ]
+}

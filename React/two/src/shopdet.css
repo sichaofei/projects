@@ -1,0 +1,37 @@
+.Det {
+  width: 100%;
+}
+
+.Det .head {
+  width: 100%;
+  display: flex;
+  color: white;
+  font-size: 1rem;
+}
+
+.Det .head .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+
+.Det .head .left a {
+  font-size: 1rem;
+  color: white;
+}
+
+.Det .head .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+}
+
+.Det .head .Det .con {
+  width: 100%;
+}
+
+.Det .head .Det .con img {
+  width: 100%;
+}

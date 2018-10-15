@@ -1,0 +1,46 @@
+{
+    "quan": [
+        {
+            "id": "1",
+            "img": "./static/img/server/serve_21.png",
+            "title": "健康圈",
+            "nav": "今日已上传步数1799步",
+            "router": "health"
+        },
+        {
+            "id": "2",
+            "img": "./static/img/server/serve_23.png",
+            "title": "理财圈",
+            "nav": "押题手册！一图读懂中报行情",
+            "router": "cai"
+        },
+        {
+            "id": "3",
+            "img": "./static/img/server/serve_29.png",
+            "title": "车主圈",
+            "nav": "这种天气不把车停好,分分钟就此报废",
+            "router": "car"
+        },
+        {
+            "id": "4",
+            "img": "./static/img/server/serve_31.png",
+            "title": "育儿圈",
+            "nav": "为什么不要随便在网上晒孩子的照片？",
+            "router": "son"
+        }
+    ],
+    "good": [
+        {
+            "id": "1",
+            "img": "./static/img/server/serve_33.png"
+        },
+        {
+            "id": "2",
+            "img": "./static/img/server/serve_36.png"
+        },
+        {
+            "id": "3",
+            "img": "./static/img/server/serve_38.png"
+        }
+    ]
+}

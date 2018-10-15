@@ -1,0 +1,38 @@
+.ask{
+    width:100%;
+    margin-top:6rem;
+    >.heads{
+        margin-top:6rem;
+        width:100%;
+        display: flex;
+        .left,.right{
+            font-size:0.7rem;
+            span{
+                color:orange;
+            }
+            width:50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column
+        }
+    }
+}
+ul{
+   
+    li{
+        padding-left:8%;
+        list-style: none;
+        font-size:0.6rem;
+        >span{
+            color:#ccc;
+            padding-left:10%;
+        }
+        p{
+            span{
+                float:right;
+                margin-right:1rem;
+            }
+        }
+    }
+}

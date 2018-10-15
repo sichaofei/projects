@@ -1,0 +1,70 @@
+{
+    "chang": [
+        {
+            "title": "投连万能价格",
+            "img": "./static/img/db/polic_13.png"
+        },
+        {
+            "title": "投连万能收益",
+            "img": "./static/img/db/polic_15.png"
+        },
+        {
+            "title": "红利查询",
+            "img": "./static/img/db/polic_17.png"
+        },
+        {
+            "title": "生存金查询",
+            "img": "./static/img/db/polic_20.png"
+        },
+        {
+            "title": "保单贷款",
+            "img": "./static/img/db/polic_26.png"
+        },
+        {
+            "title": "保单还款",
+            "img": "./static/img/db/polic_27.png"
+        },
+        {
+            "title": "地址电话变更",
+            "img": "./static/img/db/polic_28.png"
+        },
+        {
+            "title": "证件信息变更",
+            "img": "./static/img/db/polic_29.png"
+        },
+        {
+            "title": "缴费账号变更",
+            "img": "./static/img/db/polic_34.png"
+        },
+        {
+            "title": "新增附加险",
+            "img": "./static/img/db/polic_35.png"
+        },
+        {
+            "title": "红利收取",
+            "img": "./static/img/db/polic_59.png"
+        },
+        {
+            "title": "地址电话变更",
+            "img": "./static/img/db/polic_36.png"
+        }
+    ],
+    "lipei": [
+        {
+            "title": "理赔报案",
+            "img": "./static/img/db/polic_56.png"
+        },
+        {
+            "title": "理赔申请",
+            "img": "./static/img/db/polic_59.png"
+        },
+        {
+            "title": "理赔进度",
+            "img": "./static/img/db/polic_61.png"
+        },
+        {
+            "title": "定点医院",
+            "img": "./static/img/db/polic_63.png"
+        }
+    ]
+}

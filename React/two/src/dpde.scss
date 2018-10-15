@@ -1,0 +1,134 @@
+.dpde{
+    width:100%;
+}
+
+.dpde .header{
+    background: #ccc;
+    position: relative;
+    position: fixed;
+    top:0;
+    height:3rem;
+    span{
+        a{
+            color:white;
+            font-size:1.5rem;
+            text-decoration: none;
+        }
+        top:3%;
+        left:3%;
+        position: absolute;
+       
+    }
+    display: flex;
+   justify-content: space-between;
+    width:100%;
+    .left{
+        img{
+           padding:8% 8%; 
+            width:100%;
+        }
+        width:20%;
+    }
+    .right{
+        padding-top:2%;
+        h5{
+            font-size:0.8rem;  
+        }
+        font-size:0.6rem;
+        width:75%;
+    }
+
+}
+.dpde .nav{
+    background: white;
+    position: fixed;
+    top:3rem;
+    width:100%;
+    display: flex;
+    
+    div{
+        .actives{
+            color:red;
+        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:50%;
+    }
+   
+    
+}
+
+.Shopcar{
+    width: 100%;
+    height: 50px;
+    background: #3D3D3F;
+    position: fixed;
+    bottom: 0;
+    z-index: 3;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    .Cari{
+        width: 50px;
+        height: 50px;
+        border-radius:50%;
+        background: #3D3D3F;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #444444;
+        position: absolute;
+        top: -20px;
+        position: relative;
+        p{
+           position: absolute;
+           background: red;
+           color:white;
+           top:-0.5rem;
+           font-size:0.6rem;
+           width:1rem;
+           height:1rem;
+           border-radius: 50%;
+        }
+        margin: 0px 15px;
+        i{
+            font-size: 30px;
+            color: #fff;
+        }
+    }
+    .Carcen{
+        margin:0px auto 0px 90px; 
+        display: flex;
+        flex-direction: column;
+        b{
+            font-size: 18px;
+
+
+        }
+        span{
+            font-size: 12px;
+        }
+    }
+    .Carbtn{
+        width: 110px;
+        background: #535356;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600
+    }
+    .Carbtn1{
+        width: 110px;
+        background: rgb(157, 255, 127);
+        height: 50px;
+        color:lightslategrey;
+        line-height: 50px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600
+    }
+    
+}

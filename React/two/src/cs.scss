@@ -1,0 +1,69 @@
+.cs{
+    width:100%;
+}
+.cs .header{
+    font-size:0.8rem;
+    width:100%;
+    height:2rem;
+    display: flex;
+    background: #3190E8;
+        a{
+            color:white;
+        }
+        .left,.right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:20%;
+        }
+        .center{
+            color:white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:60%;
+        }
+      
+}
+.cs .nav{
+    overflow: 2;
+    width:100%;
+    
+border-top:0.5rem solid #e1e1e1;
+    input{
+        margin-top:0.6rem;
+        width:90%;
+        margin-left:4%;
+        height:1.5rem;
+    }
+    button{
+        margin-left:4%;
+        margin-top:0.6rem;
+        height:1.7rem;
+        width:90%;
+        background: #3190E8;
+        color:white;
+        border:0;
+
+    }
+}
+.cs ul{
+    border-top:1px solid #ccc;
+    width:100%;
+    li{
+        border-bottom:1px solid #ccc;
+        height:3rem;
+       p{
+        margin-top:0.5rem ;
+       }
+        padding-left:5%;
+        box-sizing: border-box;
+         list-style: none;
+       font-size:0.7rem;
+       span{
+           margin-top:0.5rem ;
+           font-size:0.6rem;
+           color:#ccc;
+       }
+    }
+}

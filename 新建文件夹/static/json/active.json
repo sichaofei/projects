@@ -1,0 +1,361 @@
+{
+    "logo": [
+        {
+            "id": 0,
+            "img": "./static/img/active/logo.png"
+        }
+    ],
+    "banner": [
+        {
+            "id": 0,
+            "img": "./static/img/active/banner.png"
+        },
+        {
+            "id": 1,
+            "img": "./static/img/active/banner.png"
+        },
+        {
+            "id": 2,
+            "img": "./static/img/active/banner.png"
+        }
+    ],
+    "nav": [
+        {
+            "id": 0,
+            "img": "./static/img/active/nav1.jpg"
+        },
+        {
+            "id": 1,
+            "img": "./static/img/active/nav2.jpg"
+        },
+        {
+            "id": 2,
+            "img": "./static/img/active/nav3.jpg"
+        },
+        {
+            "id": 3,
+            "img": "./static/img/active/nav4.jpg"
+        }
+    ],
+    "content": [
+        {
+            "id": 0,
+            "img": "./static/img/active/img1.jpg",
+            "name": "1分购7天腾讯VIP视频卡",
+            "title": "只需一分钱，生活更精彩！暑期霸屏",
+            "affiliation": [
+                {
+                    "name": "抽奖"
+                },
+                {
+                    "name": "暑期好福利"
+                }
+            ],
+            "person": 45,
+            "time": 15,
+            "type": ""
+        },
+        {
+            "id": 1,
+            "img": "./static/img/active/img2.jpg",
+            "name": "我们都是健康模范生",
+            "title": "平安好医生为您树立健康模范！",
+            "affiliation": [
+                {
+                    "name": "抽奖"
+                },
+                {
+                    "name": "健康"
+                }
+            ],
+            "person": 21,
+            "time": 15,
+            "type": "健康"
+        },
+        {
+            "id": 2,
+            "img": "./static/img/active/img3.jpg",
+            "name": "在线申请新一货 货来健康新生活",
+            "title": "申请并放款成功，送专属洁牙只能套餐",
+            "affiliation": [
+                {
+                    "name": "贷款"
+                }
+            ],
+            "person": 13,
+            "time": 15,
+            "type": "财富"
+        },
+        {
+            "id": 3,
+            "img": "./static/img/active/img4.jpg",
+            "name": "VIP积分兑换专属通道",
+            "title": "健康财富，尊崇礼遇一好礼享不停",
+            "affiliation": [
+                {
+                    "name": "生活"
+                }
+            ],
+            "person": 5,
+            "time": 168,
+            "type": "本地"
+        },
+        {
+            "id": 4,
+            "img": "./static/img/active/img5.jpg",
+            "name": "寻找追逐梦想的你",
+            "title": "平安筑梦 体验保险大咖蜕变之旅",
+            "affiliation": [
+                {
+                    "name": "招募"
+                }
+            ],
+            "person": 12,
+            "time": 76,
+            "type": "本地"
+        },
+        {
+            "id": 5,
+            "img": "./static/img/active/img6.jpg",
+            "name": "多彩夏令营 High翻迪士尼",
+            "title": "迪士尼门票天天抽，更多壕礼100%中奖",
+            "affiliation": [
+                {
+                    "name": "赢取壕礼"
+                }
+            ],
+            "person": 2,
+            "time": 35,
+            "type": "本地"
+        },
+        {
+            "id": 6,
+            "img": "./static/img/active/img7.jpg",
+            "name": "地图打卡 168元红包天天抽",
+            "title": "你去过哪些地方？快来打卡你的出行地图吧！",
+            "affiliation": [
+                {
+                    "name": "抽奖"
+                },
+                {
+                    "name": "天天抽红包"
+                },
+                {
+                    "name": "产品"
+                }
+            ],
+            "person": 50,
+            "time": 46,
+            "type": "财富"
+        },
+        {
+            "id": 7,
+            "img": "./static/img/active/img8.jpg",
+            "name": "乐享健康节 免费抽大奖",
+            "title": "抽奖赢空调扇、平板电脑智能电饭煲等大奖",
+            "affiliation": [
+                {
+                    "name": "抽奖"
+                },
+                {
+                    "name": "健康"
+                }
+            ],
+            "person": 75,
+            "time": 8,
+            "type": "健康"
+        },
+        {
+            "id": 8,
+            "img": "./static/img/active/img9.jpg",
+            "name": "健康保卫战",
+            "title": "200元抽卡领回家",
+            "affiliation": [
+                {
+                    "name": "抽奖"
+                },
+                {
+                    "name": "健康"
+                }
+            ],
+            "person": 65,
+            "time": 19,
+            "type": "健康"
+        },
+        {
+            "id": 9,
+            "img": "./static/img/active/img10.jpg",
+            "name": "社保+功能上线 免费好礼送不停",
+            "title": "免费体验社保服务，最高抽取66元红包！",
+            "affiliation": [
+                {
+                    "name": "抽奖"
+                },
+                {
+                    "name": "社保+"
+                },
+                {
+                    "name": "旺财"
+                }
+            ],
+            "person": 112,
+            "time": 17,
+            "type": "财富"
+        },
+        {
+            "id": 10,
+            "img": "./static/img/active/img11.jpg",
+            "name": "优惠多 健康节",
+            "title": "品牌手机/空调免费抽！",
+            "affiliation": [
+                {
+                    "name": "生活"
+                },
+                {
+                    "name": "抽奖"
+                }
+            ],
+            "person": 105,
+            "time": 5,
+            "type": "生活"
+        },
+        {
+            "id": 11,
+            "img": "./static/img/active/img12.jpg",
+            "name": "拼手速 赢大奖",
+            "title": "玩游戏 赢小米手机",
+            "affiliation": [
+                {
+                    "name": "生活"
+                }
+            ],
+            "person": 70,
+            "time": 13,
+            "type": "生活"
+        },
+        {
+            "id": 12,
+            "img": "./static/img/active/img13.jpg",
+            "name": "享换车豪礼 赢666红包",
+            "title": "666红包等你来拿！",
+            "affiliation": [
+                {
+                    "name": "生活"
+                },
+                {
+                    "name": "666红包"
+                }
+            ],
+            "person": 51,
+            "time": 46,
+            "type": "生活"
+        },
+        {
+            "id": 13,
+            "img": "./static/img/active/img14.jpg",
+            "name": "学平盛宴-火热进行季",
+            "title": "参与暑期安全答题赢取丰富大奖",
+            "affiliation": [
+                {
+                    "name": "抽奖"
+                },
+                {
+                    "name": "学平险"
+                }
+            ],
+            "person": 69,
+            "time": 15,
+            "type": ""
+        },
+        {
+            "id": 14,
+            "img": "./static/img/active/img15.jpg",
+            "name": "消暑大作战 全民大冒险",
+            "title": "好房大富翁，壕放红包，清凉一夏",
+            "affiliation": [
+                {
+                    "name": "抽奖"
+                },
+                {
+                    "name": "好房"
+                }
+            ],
+            "person": 70,
+            "time": 46,
+            "type": ""
+        },
+        {
+            "id": 15,
+            "img": "./static/img/active/img16.jpg",
+            "name": "中国平安球童成长计划",
+            "title": "逐梦世界足球，送少年走进英超冠军球队！",
+            "affiliation": [
+                {
+                    "name": "客服节"
+                },
+                {
+                    "name": "健康"
+                }
+            ],
+            "person": 25,
+            "time": 14,
+            "type": "健康"
+        },
+        {
+            "id": 16,
+            "img": "./static/img/active/img17.jpg",
+            "name": "开车能赚钱 天天抽大奖",
+            "title": "大牌手机、海量红包等你来领",
+            "affiliation": [
+                {
+                    "name": "理财"
+                }
+            ],
+            "person": 99,
+            "time": 5,
+            "type": "财富"
+        },
+        {
+            "id": 17,
+            "img": "./static/img/active/img18.jpg",
+            "name": "技高一筹主仔全场",
+            "title": "猜球赢大奖！",
+            "affiliation": [
+                {
+                    "name": "生活"
+                }
+            ],
+            "person": 28,
+            "time": 14,
+            "type": "生活"
+        },
+        {
+            "id": 18,
+            "img": "./static/img/active/img19.jpg",
+            "name": "VIP积分限时体验",
+            "title": "专属积分权益体验 惊喜好礼等你拿",
+            "affiliation": [
+                {
+                    "name": "客户关爱"
+                }
+            ],
+            "person": 395,
+            "time": 15,
+            "type": ""
+        },
+        {
+            "id": 19,
+            "img": "./static/img/active/img20.jpg",
+            "name": "中国平安三村工程公益跑",
+            "title": "为山区儿童捐出他们人生首次体验",
+            "affiliation": [
+                {
+                    "name": "健康"
+                }
+            ],
+            "person": 69,
+            "time": 153,
+            "type": "健康"
+        }
+    ]
+}

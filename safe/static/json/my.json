@@ -1,0 +1,110 @@
+{
+  "banner_list": [{
+      "image": "./static/img/my/my_11.png",
+      "words": "订单",
+      "id": 1
+    },
+    {
+      "image": "./static/img/my/my_13.png",
+      "words": "奖品",
+      "id": 2
+    },
+    {
+      "image": "./static/img/my/my_15.png",
+      "words": "优惠券",
+      "id": 3
+    },
+    {
+      "image": "./static/img/my/my_17.png",
+      "words": "活动",
+      "id": 4
+    },
+    {
+      "image": "./static/img/my/my_19.png",
+      "words": "健康",
+      "id": 5
+    }
+  ],
+  "my_assets": [{
+      "id": 1,
+      "imgag": "./static/img/my/my_31.png",
+      "title": "我的保单",
+      "decri": "保单服务管理"
+    },
+    {
+      "id": 2,
+      "imgag": "./static/img/my/my_34.png",
+      "title": "陆金所",
+      "decri": "优质理财"
+    },
+    {
+      "id": 3,
+      "imgag": "./static/img/my/my_36.png",
+      "title": "精选基金",
+      "decri": "基金交易查询"
+    },
+    {
+      "id": 4,
+      "imgag": "./static/img/my/my_38.png",
+      "title": "续期宝（易）",
+      "decri": "理财缴费助手"
+    },
+    {
+      "id": 5,
+      "imgag": "./static/img/my/my_40.png",
+      "title": "联名信用卡",
+      "decri": "权益账单查询"
+    },
+    {
+      "id": 6,
+      "imgag": "./static/img/my/my_42.png",
+      "title": "平安证券",
+      "decri": "证券资产查询"
+    },
+    {
+      "id": 7,
+      "imgag": "./static/img/my/my_44.png",
+      "title": "银行理财",
+      "decri": "理财订单擦查询"
+    },
+    {
+      "id": 8,
+      "imgag": "./static/img/my/my_46.png",
+      "title": "银行贷款",
+      "decri": "贷款进度查询"
+    },
+    {
+      "id": 9,
+      "imgag": "./static/img/my/my_48.png",
+      "title": "平安富宝",
+      "decri": "富宝资产查询"
+    },
+    {
+      "id": 10,
+      "imgag": "./static/img/my/my_50.png",
+      "title": "平安商户",
+      "decri": "商户管家"
+    }
+  ],
+  "other": [{
+      "id": 1,
+      "image": "./static/img/my/my_52.png",
+      "words": "设置"
+    },
+    {
+      "id": 2,
+      "image": "./static/img/my/my_54.png",
+      "words": "我的分享"
+    },
+    {
+      "id": 3,
+      "image": "./static/img/my/my_56.png",
+      "words": "客服中心"
+    },
+    {
+      "id": 4,
+      "image": "./static/img/my/my_58.png",
+      "words": "关于"
+    }
+  ]
+}

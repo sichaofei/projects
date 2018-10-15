@@ -1,0 +1,141 @@
+
+.My{
+    .p1{
+        display: flex;
+        align-items: center;
+        height: 40px;
+        background: #3190E8;
+        i{
+            font-size: 23px;
+            color:#fff;
+            padding: 0px 10px;
+        }
+        span{
+           font-size: 19px;
+           font-weight: 600;
+           color: #fff;
+           margin-left:30%; 
+        }
+    }
+    .Myyh{
+        display: flex;
+        align-items: center;
+        background: #3190E8;
+        height: 80px;
+        .Yhlf{
+            width: 20%;
+            text-align: center;
+            i{
+                font-size: 65px;
+                color: #DCDCDC;
+                
+            }
+        }
+        .Yhrh{
+            position: relative;
+            width: 80%;
+            h3{
+                color: #ffffff;
+                margin: 6px 0px;
+            }
+            p{
+                font-size: 14px;
+                color: #fff;
+                i{
+                    font-size: 18px;
+                    color: #fff;
+                    padding-right:5px; 
+                }
+            }
+            .jtrh{
+               position: absolute;
+               right:15px;
+               top:45%;
+               font-size: 18px;
+               color: #fff
+            }
+        }
+    }
+    .money{
+        display: flex;
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 33.33%;
+            flex-direction: column;
+            height: 80px;
+            border-right:1px solid #F5F5F5; 
+            border-bottom:9px solid #F5F5F5; 
+            p{
+                font-size: 15px;
+            }
+            span{
+                font-size: 14px;
+                color: #888
+            }
+            b{
+                font-size: 26px;
+                padding: 0px 5px;
+            }
+            .b1{
+                color: #FF9900
+            }
+            .b2{
+                color: #FF5F3E
+            }
+            .b3{
+                color: #6AC20B
+            }
+        }
+    }
+    .Mycon{
+        .Bot{
+            border-bottom:8px solid #F5F5F5;
+            p{
+                border: none
+            } 
+        }
+        div{
+            display: flex;
+            align-items: center;
+            i{
+                font-size: 22px;
+                padding: 0px 8px;
+            }
+            .i1{
+                color: #808080
+            }
+            .i2{
+                color: #FC7B53
+            }
+            .i3{
+                color: #F7C034
+            }
+            .i4{
+                color: #4AA5F0
+            }
+            .i5{
+                color: #4AA5F0
+            }
+            p{
+                font-size: 18px;
+                width: 100%;
+                height: 50px;
+                line-height: 50px;
+                border-bottom:1px solid #DCDCDC; 
+                position: relative;
+                .el-icon-arrow-right{
+                    position: absolute;
+                    right: 3%;
+                    top: 35%;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .Cor{
+        height: 80px;
+        background: #F5F5F5
+    }
+}
