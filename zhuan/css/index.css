@@ -1,0 +1,130 @@
+*{
+		
+}
+#lottery{width:100vw;margin:0 auto ;
+	height: 100%;
+	background:url(../image/bg.jpg) no-repeat;
+	background-size: 100vw 15.97rem; padding-top:4.88rem;
+	/*box-sizing: border-box;*/
+	overflow: hidden;}
+body,*{
+	margin: 0;
+	padding: 0;
+}
+#lottery table {
+	margin:0 auto;
+	width: 5.59rem;
+	height: 5.59rem
+}
+
+#lottery table td{width:1.42rem;height:1.42rem;text-align:center;
+	vertical-align:middle;font-size:0.24rem;color:#333;
+	font-index:-999;box-sizing: border-box;overflow: hidden;border: 0.05rem solid transparent}
+
+/*#lottery table td a{width:2.84rem;height:2.84rem;line-height:1.50rem;display:block;text-decoration:none;}*/
+
+#lottery table td.active{background-color:#ea0000;border:0.05rem solid #4cf3e1;border-radius: 0.3rem}
+html,body{
+	font-size:16px;
+}
+.jian img{
+	width: 1.96rem;
+	height: 1.59rem;
+}
+.jian{
+	border: 0.06rem solid #272D32;
+border-radius: 0.05rem;
+}
+.lottery-unit img{
+	width:1.33rem;
+	height: 1.35rem
+}
+.recode{
+	margin-top: 1.6rem
+}
+.recode .head{
+font-family: PingFangSC-Medium;
+font-size: 0.42rem;
+color: #333333;
+letter-spacing:0.02rem;
+font-weight: 600;
+text-align: center;
+}
+#bov{
+	height: 1.0rem;
+}
+li{
+	list-style: none;
+	text-align: center;
+	font-family: PingFangSC-Light;
+font-size: 0.28rem;
+color: #5A616B;
+letter-spacing: 1.75px;
+line-height: 0.5rem;
+}
+#noticeBox{
+	overflow: hidden;
+	height: 2.5rem;
+}
+.fixed{
+	position: fixed;
+	left: 0;
+	top: 0;
+	padding-top: 2rem;
+	background:rgba(0,0,0,0.5); 
+	width: 100%;
+	height: 100%;
+	display: none;
+	font-weight: 600;
+}
+.has{
+	width: 6.30rem;
+	height: 7.60rem;
+	margin-left: 0.6rem;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 0.2rem;
+	text-align: center;
+	padding-top: 0.73rem;
+	/*display: none;*/
+    }
+    .has img{
+    	width: 2.83rem;
+    	height: 2.87rem;
+    	margin: 0.6rem 0rem;
+    }
+    .none{
+    	width: 6.3rem;
+    	height: 2.8rem;
+    	box-sizing: border-box;
+      	margin-left: 0.6rem;
+		background: #FFFFFF;
+		border-radius: 0.2rem;
+		font-family: PingFangSC-Medium;
+        font-size: 0.38rem;
+         color: #333333;
+         letter-spacing: 0;
+         text-align: center;
+         font-weight: 600;
+         padding-top: 0.87rem;
+         margin-top: 2rem;
+         display: none;
+    }
+   .fixed .has .zero{
+   	color: #8F44FF;
+    }
+    .has p{
+    	margin-top: 0.4rem;
+    }
+    .one{
+display: none;
+    }
+    .oneM{
+display: none;
+    }
+    .threeM{
+    	display: none;
+    }
+    .over{
+    	display: none;
+    }
